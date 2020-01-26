@@ -1,0 +1,124 @@
+html {
+  margin-bottom: 100px;
+}
+
+body {
+  background-image: url(../images/bg-desktop.svg);
+  background-repeat: no-repeat;
+  background-color: hsl(257, 40%, 49%);
+  margin-bottom: 0;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  color: white;
+  font-size: 2.25rem;
+  display: inline-block;
+  width: 500px;
+  margin-left: 45px;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  display: inline-block;
+  width: 500px;
+  margin-left: 45px;
+  font-size: 1.10rem;
+}
+
+.header {
+  margin-bottom: 75px;
+}
+
+.logo {
+  width: 200px;
+  margin: 50px 0 0 50px;
+}
+
+.mockup {
+  width: 700px;
+  margin-left: 75px;
+  float: left;
+}
+
+.icon {
+  margin: 10px 10px;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  top: 150px;
+  left: 350px;
+
+}
+
+.myButton {
+  box-shadow: -1px 0 6px 1px #383b38;
+  background-color: #ffffff;
+  border-radius: 27px;
+  border: 1px solid #f5fff6;
+  display: inline-block;
+  cursor: pointer;
+  color: hsl(257, 40%, 49%);
+  font-family: 'Poppins';
+  font-size: 17px;
+  padding: 14px 75px;
+  text-decoration: none;
+  margin: 10px 0 10px 45px;
+}
+
+.myButton:hover {
+  background-color: #ffffff;
+}
+
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+.attribution {
+  display: none;
+}
+
+@media (max-width: 800px){
+  .main{
+    text-align:center;
+  }
+  h1 {
+    display:block;
+    width: 350px
+    margin: 5px auto;
+  }
+
+  p{
+    display:block;
+    width: 350px
+    margin: 5px auto;
+  }
+
+  .mockup{
+    float:none;
+    width:350px;
+    display:block
+    margin: 10px auto 30px;
+  }
+
+  .myButton{
+    display:block;
+    width:225px;
+    position:inherit;
+    margin: 10px auto;
+    text-align:center;
+  }
+
+  .icon{
+    position:inherit;
+  }
+
+  .social{
+    margin:30px auto;
+    width:200px
+  }
+
+}
